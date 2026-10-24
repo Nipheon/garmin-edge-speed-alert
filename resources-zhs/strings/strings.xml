@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string id="SpeedLabel">速度</string>
+    <string id="ThresholdSpeedTitle">速度阈值</string>
+    <string id="ThresholdSpeedPrompt">超过此速度后警报进入待触发状态，单位与设备速度单位一致（km/h 或 mph）</string>
+    <string id="ThresholdTimeTitle">警报延迟（秒）</string>
+    <string id="ThresholdTimePrompt">速度须持续超过阈值多少秒后才触发警报</string>
+</resources>

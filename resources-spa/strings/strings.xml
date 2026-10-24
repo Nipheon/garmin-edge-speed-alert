@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string id="SpeedLabel">Velocidad</string>
+    <string id="ThresholdSpeedTitle">Umbral de velocidad</string>
+    <string id="ThresholdSpeedPrompt">Velocidad por encima de la cual se activa la alarma, en la unidad de velocidad del dispositivo (km/h o mph)</string>
+    <string id="ThresholdTimeTitle">Retardo de la alarma (segundos)</string>
+    <string id="ThresholdTimePrompt">Segundos que la velocidad debe permanecer por encima del umbral antes de que se dispare la alarma</string>
+</resources>

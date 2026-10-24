@@ -1,0 +1,33 @@
+project.manifest = manifest.xml
+
+# Display-type branch: only the Edge 130 family has a monochrome (1-bit) display
+# (per <SDK Devices>/<id>/compiler.json bitsPerPixel). All other Edges are 16-bit color.
+base.excludeAnnotations = monoDisplay
+edge130.excludeAnnotations = colorDisplay
+edge130plus.excludeAnnotations = colorDisplay
+
+# Exact launcher icon size per device group (per compiler.json launcherIcon)
+# 35x35
+edge_520.resourcePath     = resources;resources-icon35
+edge130.resourcePath      = resources;resources-icon35
+edge130plus.resourcePath  = resources;resources-icon35
+edge520plus.resourcePath  = resources;resources-icon35
+edge530.resourcePath      = resources;resources-icon35
+edge540.resourcePath      = resources;resources-icon35
+edge820.resourcePath      = resources;resources-icon35
+edge830.resourcePath      = resources;resources-icon35
+edge840.resourcePath      = resources;resources-icon35
+# 36x36
+edge_1000.resourcePath    = resources;resources-icon36
+edge1030.resourcePath     = resources;resources-icon36
+edge1030bontrager.resourcePath = resources;resources-icon36
+edge1030plus.resourcePath = resources;resources-icon36
+edgeexplore.resourcePath  = resources;resources-icon36
+edgeexplore2.resourcePath = resources;resources-icon36
+edgemtb.resourcePath      = resources;resources-icon36
+# 40x40 — matches the base icon, no override needed (edge1040)
+# 56x56
+edge550.resourcePath      = resources;resources-icon56
+edge850.resourcePath      = resources;resources-icon56
+# 68x68
+edge1050.resourcePath     = resources;resources-icon68

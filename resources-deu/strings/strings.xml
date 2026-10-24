@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string id="SpeedLabel">Geschwindigkeit</string>
+    <string id="ThresholdSpeedTitle">Geschwindigkeitsschwelle</string>
+    <string id="ThresholdSpeedPrompt">Geschwindigkeit, ab der der Alarm scharfgestellt wird, in der Geschwindigkeitseinheit des Geräts (km/h oder mph)</string>
+    <string id="ThresholdTimeTitle">Alarmverzögerung (Sekunden)</string>
+    <string id="ThresholdTimePrompt">Sekunden, die die Geschwindigkeit über der Schwelle bleiben muss, bevor der Alarm auslöst</string>
+</resources>

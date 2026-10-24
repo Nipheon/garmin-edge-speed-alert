@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <properties>
+        <property id="thresholdSpeed" type="float">40.0</property>
+        <property id="thresholdTime" type="number">5</property>
+    </properties>
+</resources>

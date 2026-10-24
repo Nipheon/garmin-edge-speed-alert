@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string id="AppName" translatable="false">Speed Limit Warning</string>
+    <string id="SpeedLabel">Speed</string>
+    <string id="ThresholdSpeedTitle">Speed threshold</string>
+    <string id="ThresholdSpeedPrompt">Speed above which the alarm arms, in your device's speed unit (km/h or mph)</string>
+    <string id="ThresholdTimeTitle">Alarm delay (seconds)</string>
+    <string id="ThresholdTimePrompt">Seconds the speed must stay above the threshold before the alarm triggers</string>
+</resources>

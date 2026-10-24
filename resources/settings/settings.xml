@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <settings>
+        <setting propertyKey="@Properties.thresholdSpeed" title="@Strings.ThresholdSpeedTitle" prompt="@Strings.ThresholdSpeedPrompt">
+            <settingConfig type="numeric" min="0" max="999"/>
+        </setting>
+        <setting propertyKey="@Properties.thresholdTime" title="@Strings.ThresholdTimeTitle" prompt="@Strings.ThresholdTimePrompt">
+            <settingConfig type="numeric" min="0" max="3600"/>
+        </setting>
+    </settings>
+</resources>

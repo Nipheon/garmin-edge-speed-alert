@@ -1,0 +1,8 @@
+bin/
+.DS_Store
+.claude/
+.scratch/
+*.prg
+*.iq
+developer_key*
+*.der

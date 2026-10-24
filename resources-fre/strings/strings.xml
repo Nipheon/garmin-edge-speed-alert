@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string id="SpeedLabel">Vitesse</string>
+    <string id="ThresholdSpeedTitle">Seuil de vitesse</string>
+    <string id="ThresholdSpeedPrompt">Vitesse au-delà de laquelle l'alarme s'arme, dans l'unité de vitesse de l'appareil (km/h ou mph)</string>
+    <string id="ThresholdTimeTitle">Délai d'alarme (secondes)</string>
+    <string id="ThresholdTimePrompt">Nombre de secondes pendant lesquelles la vitesse doit rester au-dessus du seuil avant le déclenchement de l'alarme</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string id="SpeedLabel">スピード</string>
+    <string id="ThresholdSpeedTitle">速度しきい値</string>
+    <string id="ThresholdSpeedPrompt">速度がこの値を超えるとアラームが待機状態になります。単位はデバイスの速度単位（km/h または mph）です</string>
+    <string id="ThresholdTimeTitle">アラーム遅延（秒）</string>
+    <string id="ThresholdTimePrompt">速度がしきい値を超え続けてからアラームが作動するまでの秒数</string>
+</resources>
