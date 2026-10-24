@@ -1,5 +1,9 @@
 # SpeedAlert
 
+> **Not available in the Connect IQ store.** This data field was rejected by the
+> store: Garmin does not allow safety-related apps, and an over-speed alarm falls
+> under that ban. The code is kept here for sideloading onto your own device only.
+
 A Connect IQ data field for Garmin Edge cycling computers. It duplicates the
 built-in **Speed** field (current speed in the device's configured unit,
 km/h or mph) and adds a configurable over-speed alarm: when you stay above a
