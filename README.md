@@ -75,8 +75,9 @@ SDK="$HOME/Library/Application Support/Garmin/ConnectIQ/Sdks/<current-sdk>"
 # Sideload: plug the Edge in via USB (mass storage) and copy
 cp bin/edge1040.prg /Volumes/GARMIN/Garmin/Apps/
 
-# Store package (builds every supported device/part number)
-"$SDK/bin/monkeyc" -e -o bin/SpeedAlert.iq -f monkey.jungle -y ../developer_key -w
+# Package for every supported device/part number (dist/ is gitignored)
+mkdir -p dist
+"$SDK/bin/monkeyc" -e -o dist/SpeedAlert-<version>.iq -f monkey.jungle -y ../developer_key -w
 ```
 
 Then on the device: add a Connect IQ data field to a data screen

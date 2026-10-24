@@ -6,3 +6,4 @@ bin/
 *.iq
 developer_key*
 *.der
+dist/
