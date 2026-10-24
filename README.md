@@ -89,3 +89,8 @@ or by installing via the store for phone-app settings support.
 Bump the manifest `version` before any store upload whenever devices,
 languages, or rendering change — the store rejects uploads with a version ≤
 the published one.
+
+## AI disclosure
+
+This app was built with the help of AI: Claude (Anthropic; the model version
+was not recorded). The author reviews the results and directs the project.
